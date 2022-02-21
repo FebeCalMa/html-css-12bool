@@ -9,10 +9,21 @@
   margin: 0 auto;
 }
 
+[class*="col-"] {
+  flex: 0 0 auto;
+}
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .col-1 {

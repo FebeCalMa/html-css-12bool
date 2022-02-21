@@ -27,6 +27,7 @@
       </div>
     </header>
     <main>
+      <!--PRIMO BLOCCO-->
       <div class="row">
         <div class="col-2 bg-blue height-50px">col 2</div>
         <div class="col-5 bg-blue height-50px">col 5</div>
@@ -48,8 +49,15 @@
         <div class="col-1 bg-blue height-50px">col</div>
       </div>
       <div class="row nested">
-        <div class="col-6 bg-blue height-50px"></div>
-        <div class="col-6 bg-blue height-50px"></div>
+        <div class="col-6 row bg-blue height-50px p-5px">
+          <div class="col-2 bg-green height-35px">Nested 2 col</div>
+          <div class="col-2 bg-green height-35px">Nested 2 col</div>
+          <div class="col-8 bg-green height-35px">Nested 8 col</div>
+        </div>
+        <div class="col-6 row bg-blue height-50px p-5px">
+          <div class="col-6 bg-green height-35px">Nested 6 col</div>
+          <div class="col-6 bg-green height-35px">Nested 6 col</div>
+        </div>
       </div>
 
       <!--SECONDO BLOCCO-->
@@ -81,7 +89,7 @@
         <div class="col-6 bg-blue height-50px"></div>
       </div>
 
-      <!--  OFFSET-->
+      <!--OFFSET-->
       <div class="row">
         <h3>Offset</h3>
         <div class="col-1 col-offset-11 bg-blue height-50px"></div>
@@ -95,6 +103,48 @@
         <div class="col-9 col-offset-3 bg-blue height-50px"></div>
         <div class="col-10 col-offset-2 bg-blue height-50px"></div>
         <div class="col-11 col-offset-1 bg-blue height-50px"></div>
+      </div>
+
+      <!--NESTED-->
+      <h3>Nested</h3>
+      <div class="row">
+        <div class="col-8 row bg-blue height-50px p-5px">
+          <div class="col-3 bg-green height-35px"></div>
+          <div class="col-6 bg-green height-35px"></div>
+          <div class="col-3 bg-green height-35px"></div>
+        </div>
+        <div class="col-4 row bg-blue height-50px p-5px">
+          <div class="col-6 bg-green height-35px"></div>
+          <div class="col-6 bg-green height-35px"></div>
+        </div>
+      </div>
+
+      <!--ALIGNMENT-->
+      <h3>Alignment</h3>
+      <div class="row">
+        <div class="col-6 bg-blue height-50px">Start</div>
+        <div class="col-6 col-offset-3 bg-blue height-50px">Center</div>
+        <div class="col-6 col-offset-6 bg-blue height-50px">End</div>
+      </div>
+      <div class="row"></div>
+
+      <!--JUSTIFY CONTENT-->
+      <h3>Justify Content</h3>
+      <h4>Space Around</h4>
+      <div class="row">
+        <div class="col-12 row space-around bg-blue height-50px">
+          <div class="col-2 bg-green height-35px"></div>
+          <div class="col-2 bg-green height-35px"></div>
+          <div class="col-2 bg-green height-35px"></div>
+        </div>
+      </div>
+      <h4>Space between</h4>
+      <div class="row">
+        <div class="col-12 row space-between bg-blue height-50px">
+          <div class="col-2 bg-green height-35px"></div>
+          <div class="col-2 bg-green height-35px"></div>
+          <div class="col-2 bg-green height-35px"></div>
+        </div>
       </div>
     </main>
   </body>
