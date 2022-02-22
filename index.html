@@ -49,14 +49,18 @@
         <div class="col-1 bg-blue height-50px">col</div>
       </div>
       <div class="row nested">
-        <div class="col-6 row bg-blue height-50px p-5px">
-          <div class="col-2 bg-green height-35px">Nested 2 col</div>
-          <div class="col-2 bg-green height-35px">Nested 2 col</div>
-          <div class="col-8 bg-green height-35px">Nested 8 col</div>
+        <div class="col-6 bg-blue height-50px p-5px">
+          <div class="row">
+            <div class="col-2 bg-green height-35px">Nested 2 col</div>
+            <div class="col-2 bg-green height-35px">Nested 2 col</div>
+            <div class="col-8 bg-green height-35px">Nested 8 col</div>
+          </div>
         </div>
-        <div class="col-6 row bg-blue height-50px p-5px">
-          <div class="col-6 bg-green height-35px">Nested 6 col</div>
-          <div class="col-6 bg-green height-35px">Nested 6 col</div>
+        <div class="col-6 bg-blue height-50px p-5px">
+          <div class="row">
+            <div class="col-6 bg-green height-35px">Nested 6 col</div>
+            <div class="col-6 bg-green height-35px">Nested 6 col</div>
+          </div>
         </div>
       </div>
 
@@ -108,26 +112,44 @@
       <!--NESTED-->
       <h3>Nested</h3>
       <div class="row">
-        <div class="col-8 row bg-blue height-50px p-5px">
-          <div class="col-3 bg-green height-35px"></div>
-          <div class="col-6 bg-green height-35px"></div>
-          <div class="col-3 bg-green height-35px"></div>
+        <div class="col-8 bg-blue height-50px p-5px">
+          <div class="row">
+            <div class="col-3 bg-green height-35px"></div>
+            <div class="col-6 bg-green height-35px"></div>
+            <div class="col-3 bg-green height-35px"></div>
+          </div>
         </div>
-        <div class="col-4 row bg-blue height-50px p-5px">
-          <div class="col-6 bg-green height-35px"></div>
-          <div class="col-6 bg-green height-35px"></div>
+        <div class="col-4 bg-blue height-50px p-5px">
+          <div class="row">
+            <div class="col-6 bg-green height-35px"></div>
+            <div class="col-6 bg-green height-35px"></div>
+          </div>
         </div>
       </div>
 
       <!--ALIGNMENT-->
       <h3>Alignment</h3>
-      <div class="row">
+      <div class="row align-left">
         <div class="col-6 bg-blue height-50px">Start</div>
-        <div class="col-6 col-offset-3 bg-blue height-50px">Center</div>
-        <div class="col-6 col-offset-6 bg-blue height-50px">End</div>
       </div>
-      <div class="row"></div>
-
+      <div class="row align-center">
+        <div class="col-6 bg-blue height-50px">Center</div>
+      </div>
+      <div class="row align-right">
+        <div class="col-6 bg-blue height-50px">End</div>
+      </div>
+      <div class="row align-top">
+        <div class="col-6 bg-blue height-150px"></div>
+        <div class="col-6 bg-blue height-50px">Top</div>
+      </div>
+      <div class="row align-middle">
+        <div class="col-6 bg-blue height-150px"></div>
+        <div class="col-6 bg-blue height-50px">Center</div>
+      </div>
+      <div class="row align-bottom">
+        <div class="col-6 bg-blue height-150px"></div>
+        <div class="col-6 bg-blue height-50px">Bottom</div>
+      </div>
       <!--JUSTIFY CONTENT-->
       <h3>Justify Content</h3>
       <h4>Space Around</h4>
